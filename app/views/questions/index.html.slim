@@ -1,4 +1,8 @@
-h1 Topics
-= render(questions) || "There are no questions yet."
+.container
+  .col-md-8
+    h1 Topics
+    = render(questions) || "There are no questions yet."
 
-= link_to 'New Question', new_question_path, class: 'btn btn-primary'
+    = link_to 'New Question', new_question_path, class: 'btn btn-primary'
+  .col-md-4
+    | well z tagami
